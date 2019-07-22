@@ -13,11 +13,11 @@ class Dog
   end
   
   def self.print_all
-    @@all.each {|word| puts word}
+    @@all.each {|dog| puts @name}
   end
   
   def self.clear_all
     @@all.clear
   end
-
+  binding.pry
 end
